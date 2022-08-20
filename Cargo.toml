@@ -1,0 +1,12 @@
+[package]
+name = "cache-practice"
+version = "0.1.0"
+edition = "2021"
+author="barachi"
+license="MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde_json="1.0.82"
+serde = { version = "1.0.142", features = ["derive"] }
